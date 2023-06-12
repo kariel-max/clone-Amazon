@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone Amazon filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <section id="headerUp">
+            <a href="#">
+                <div class="logo-amazon horver_div">
+                    <div class="area-logo"><img src="imagens/iconesLogos/image_logo_maior_amazon.png">
+                        <div class="text-logo">.com.br</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="localizacao horver_div">
+                    <img src="imagens/iconesLogos/image_localizacao.png">
+                    <span>Olá
+                        <div class="fontP-1">Selecione o endereço</div>
+                    </span>
+                </div>
+            </a>
+            <div id="section-pesquisa" class="clickMostrar">
+                <div class="pesquisa-todos">
+                    <p>Todos</p>
+                    <img src="imagens/triangulo.png" width="10px" height="10px" style="padding: 0px 5px;">
+                </div>
+
+                <section id="section-departamentos" class="mostrarSection">
+                    <div class="departamento-list">
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                        <a href="#">
+                            <div class="option">Todos os departamentos</div>
+                        </a>
+                    </div>
+                </section>
+                <input type="text" placeholder="Pesquisa Amazon.com.br">
+
+                <div class="button-pesquiza">
+                    <img src="imagens/iconesLogos/image_lupa_de_busca.png">
+                </div>
+
+            </div>
+
+            <a href="#">
+                <div id="contas-e-listas" class="horver_div display-flex">
+                    Olá, faça o seu login
+                    <div class="fontP-1">
+                        <img src="imagens/triangulo.png" width="8px" height="8px" style="padding: 0px 0px;">
+                        Contas e listas
+
+                    </div>
+
+                    <div id="section-conta" class="display-none">
+                        <div class="seta-login"></div>
+                        <div class="faca-login">
+                            <a href="#"><button>Faça seu login</button></a>
+                            <p>Cliente novo? <a href="#" class="comeceAqui">Comece aqui.</a></p>
+                        </div>
+                        <div id="area-conta">
+                            <div class="suas-listas">
+                                <h2>Suas listas</h2>
+                                <ul>
+                                    <li><a href="#">criar uma lista de desejos</a></li>
+                                </ul>
+                            </div>
+                            <div class="sua-conta">
+                                <h2>Sua conta</h2>
+                                <ul>
+                                    <li><a href="#">Sua conta</a></li>
+                                    <li><a href="#">Sua pedidos</a></li>
+                                    <li><a href="#">Sua lista de desejos</a></li>
+                                    <li><a href="#">Remendados para você</a></li>
+                                    <li><a href="#">Programe e Poupe</a></li>
+                                    <li><a href="#">Sua assinatura Prime</a></li>
+                                    <li><a href="#">Incrições e assinatura</a></li>
+                                    <li><a href="#">Gerencie seu conteúdo e dispositivo</a></li>
+                                    <li><a href="#">Seu Amazon Music</a></li>
+                                    <li><a href="#">Seu Prime Video</a></li>
+                                    <li><a href="#">Seu Kindle Unlimited</a></li>
+                                    <li><a href="#">Seu Amazon Drive em Amazon.com</a></li>
+                                    <li><a href="#">Seus Aplicativos e dispositivos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="devoluçoes horver_div">
+                    Devoluções
+                    <div class="fontP-1">e Pedidos</div>
+
+                </div>
+            </a>
+            <a href="#">
+                <div class="carrinho horver_div">
+
+                    <div class="area-carrinho">
+                        <div id="quantCarrinho">
+                            <div class="nunberQuantItens">0</div>
+                            <img src="imagens/iconesLogos/image_carrinho.png">
+                        </div>
+                        <div class="fontP-1">Carrinho</div>
+                    </div>
+
+                </div>
+            </a>
+        </section>
+
+        <section class="headerdowm">
+            <section class="headerdowm-left">
+                <div class="todos horver_div clickMostrar">
+                    <div class="area-barra">
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                    </div>
+                    Todos
+
+
+                </div>
+                <a href="#">
+                    <div class="horver_div">Venda na Amazon</div>
+                </a>
+                <a href="#">
+                    <div class="horver_div">Mais Vendidos</div>
+                </a>
+                <a href="#">
+                    <div class="horver_div display-flex">
+                        Prime
+                        <img src="imagens/triangulo.png" width="8px" height="8px">
+
+                        <div id="section-prime" class="display-none">
+                            <div class="seta-login"></div>
+                            <div id="anuncio-prime">
+                                <button>Assine Agora</button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="horver_div">Ofertas do Dia</div>
+                </a>
+                <a href="#">
+                    <div class="horver_div">Novidades na Amazon</div>
+                </a>
+                <a href="#">
+                    <div class="horver_div">Música</div>
+                </a>
+                <a href="#">
+                    <div class="horver_div">Livros</div>
+                </a>
+            </section>
+
+            <section class="headerdowm-right">
+                <a href="#">
+                    <div class="propaganda-do-header horver_div">Amazon Prime: teste GRÁTIS por 30 dias
+                    </div>
+                </a>
+
+            </section>
+        </section>
+
+    </header>
+    <section id="menuTodos">
+        <div id="areamenuTodos">
+
+            <div class="menuFazerLogin">
+                <span><img src="imagens/iconesLogos/image_perfil.png"></span> Olá, faça seu login
+            </div>
+            <section id="styleMenuTodos">
+                <div id="destaques" class="areaStyleMenuTodos">
+                    <h3>Destaques</h3>
+                    <a href="#">
+                        <div class="itemSeviços">Mais Vendidos</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Novidades na Amazon</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Produtos em alta</div>
+                    </a>
+                </div>
+                <div id="conteudoDigital" class="areaStyleMenuTodos">
+                    <h3>Conteúdo Digital E Dispositivos</h3>
+                    <a href="#">
+                        <div class="itemSeviços">Amazon Fire TV <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Amazon Music <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Prime Video <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Aplicativos Amazon <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Dispositivos Kindle e eBooks <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Echo e Alexa <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                </div>
+                <div id="comprarPorCategoria" class="areaStyleMenuTodos">
+                    <h3>Comprar Por Categoria</h3>
+                    <a href="#">
+                        <div class="itemSeviços">Alimentos e Bebidas <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Automotivo <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Bebês <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Beleza e Cuidados Pessoais <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços verTudo">Ver Tudo <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                </div>
+                <div id="progamaRecursos" class="areaStyleMenuTodos">
+                    <h3>Programas E Recursos</h3>
+                    <a href="#">
+                        <div class="itemSeviços">Amazon Prime</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Amazon Super</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Dicas de Presentes</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Lista do Bebê</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços verTudo">Ver Tudo <div class="setaDireita"></div>
+                        </div>
+                    </a>
+                </div>
+                <div id="ajudaConfiguracoes" class="areaStyleMenuTodos">
+                    <h3>Ajuda E Configurações</h3>
+                    <a href="#">
+                        <div class="itemSeviços">Sua conta</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Ajuda</div>
+                    </a>
+                    <a href="#">
+                        <div class="itemSeviços">Faça seu login</div>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div id="fecharMenu"></div>
+    </section>
+    <section id="imagens-movimentada">
+        <div id="button-img-left" class="button-img-style">
+            <div class="seta"></div>
+        </div>
+        <div id="button-img-right" class="button-img-style">
+            <div class="seta"></div>
+        </div>
+        <div id="section-banner"></div>
+    </section>
+
+    <section class="container">
+        <section id="section-conteudo-maior"></section>
+    </section>
+
+    <section class="container" data-categoria="categorias"></section>
+    <section class="container" data-categoria="filmes"></section>
+    <section class="container" data-categoria="maisVendidos"></section>
+
+    <footer>
+        <a href="#headerUp" class="color-voltar-inicil">
+            <div id="voltar-inicil">Voltar ao início</div>
+        </a>
+        <section id="section-footer">
+            <div id="conheca-nos" class="sections-link-footer">
+                <div>Conheca-nos</div>
+                <a href="#">Informações corporativas</a>
+                <a href="#">Carreiras</a>
+                <a href="#">Comunicados à imprensa</a>
+                <a href="#">Comunidade</a>
+                <a href="#">Acessibilidade</a>
+                <a href="#">Amazon Science</a>
+            </div>
+            <div id="ganhe-dinheiro-conosco" class="sections-link-footer">
+                <div>Ganhe dinheiro conosco</div>
+                <a href="#">Venda na Amazon</a>
+                <a href="#">Proteja e construa a sua marca</a>
+                <a href="#">Publique seus livros</a>
+                <a href="#">Seja um associado</a>
+                <a href="#">Anuncie seus produtos</a>
+            </div>
+            <div id="pagamento" class="sections-link-footer">
+                <div>Pagamento</div>
+                <a href="#">Meios de Pagamento</a>
+                <a href="#">Compre com Pontos</a>
+            </div>
+            <div id="Deixe-nos-ajudar" class="sections-link-footer">
+                <div>Deixe-nos ajudar você</div>
+                <a href="#">Amazon e COVID-19</a>
+                <a href="#">Sua conta</a>
+                <a href="#">Frete e prazo de entrega</a>
+                <a href="#">Devoluções e reembolsos</a>
+                <a href="#">Gerencie seu conteúdo e dispositivos</a>
+                <a href="#">Ajuda</a>
+            </div>
+        </section>
+        <section id="section-idioma-amazon">
+            <div id="logo-footer-amazon"><img src="imagens/iconesLogos/image_logo_menor_amazon.png"></div>
+            <section id="area-idioma-amazon">
+                <a href="#" class="style-box-idioma">Austrália</a>
+                <a href="#" class="style-box-idioma">Alemanha</a>
+                <a href="#" class="style-box-idioma">Canadá</a>
+                <a href="#" class="style-box-idioma">China</a>
+                <a href="#" class="style-box-idioma">Cingapura</a>
+                <a href="#" class="style-box-idioma">Espanha</a>
+                <a href="#" class="style-box-idioma">Estados Unidos</a>
+                <a href="#" class="style-box-idioma">França</a>
+                <a href="#" class="style-box-idioma">Holanda</a>
+                <a href="#" class="style-box-idioma">índa</a>
+                <a href="#" class="style-box-idioma">itàlia</a>
+                <a href="#" class="style-box-idioma">Japão</a>
+                <a href="#" class="style-box-idioma">México</a>
+                <a href="#" class="style-box-idioma">Polônia</a>
+                <a href="#" class="style-box-idioma">Emirados Árabes Unidos</a>
+                <a href="#" class="style-box-idioma">Reino Unido</a>
+                <a href="#" class="style-box-idioma">Turquia</a>
+            </section>
+            <div id="amazon-service-web">
+                E não se esqueça:
+                <a href="#">Amazon Web Services</a>
+            </div>
+        </section>
+        <section id="section-address-amazon">
+            <div id="section-CondiçõesDeUso">
+                <div>
+                    <a href="#" class="style-box-idioma primeiro-item" style="border: none;">Condições de Uso</a>
+                    <a href="#" class="style-box-idioma">Notificação de Privacidade</a>
+                    <a href="#" class="style-box-idioma">Anúncios Baseados em Interesses</a>
+                    <a href="#" class="style-box-idioma">Cookies</a>
+                </div>
+                © 2021-2023 Amazon.com, Inc. ou suas afiliadas
+            </div>
+            <section id="section-address">
+                <p>
+                    Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03
+                </p>
+                <p>
+                    Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo CEP: 04543-011| <a href="#"> Fale
+                        conosco </a> | ajuda-amazon@amazon.com.br </p>
+                <p>
+                    Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express), cartões
+                    de débito (Visa e Elo), Boleto e Pix.
+                </p>
+            </section>
+        </section>
+    </footer>
+    <script src="produtosImagen.json"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

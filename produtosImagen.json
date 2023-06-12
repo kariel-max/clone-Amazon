@@ -1,0 +1,229 @@
+{
+    "banner": [
+        "imagens/banner/image_36.jpg",
+        "imagens/banner/image_15.jpg",
+        "imagens/banner/image_17.jpg",
+        "imagens/banner/image_55.jpg",
+        "imagens/banner/image_72.jpg"
+    ],
+    "lista": [
+       
+            {
+                "tipo": "quadrado",
+                "title": "Echo e Fire TV com Alexa",
+                "link": "confira todos os Dispositivos Amazon",
+                "produto": [
+                    {
+                        "img": ["imagens/Pictures/image_1.jpg"],
+                        "descricao": "Novo Echo pop",
+                        "areaGrid": "primeiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_2.jpg"],
+                        "descricao": "Echo Dot com Relógio 4ª Ger.",
+                        "areaGrid": "segundo"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_3.jpg"],
+                        "descricao": "Fire TV Stick",
+                        "areaGrid": "terceiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_4.jpg"],
+                        "descricao": "Echo Dot 3ª geração",
+                        "areaGrid": "quarto"
+                    }
+                ]
+            },
+            {
+                "tipo": "triangulo",
+                "title": "Dia dos Namorados",
+                "link": "Tudo para o seu dia dos namorados",
+
+                "produto": [
+                    {
+                        "img": ["imagens/Pictures/image_56.jpg"],
+                        "descricao": "Guia de Presentes",
+                        "areaGrid": "primeiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_57.jpg"],
+                        "descricao": "Mais Ama...",
+                        "areaGrid": "segundo"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_58.jpg"],
+                        "descricao": "O Encontro",
+                        "areaGrid": "terceiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_59.jpg"],
+                        "descricao": "Cestas",
+                        "areaGrid": "quarto"
+                    }
+                ]
+            },
+            {
+                "tipo": "quadrado",
+                "title": "Conheça os E-readers Kindle",
+                "link": "ver mais E-readers Kindle",
+                "produto": [
+                    {
+                        "img": ["imagens/Pictures/image_6.jpg"],
+                        "descricao": "Kindle Paperwhite",
+                        "areaGrid": "primeiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_7.jpg"],
+                        "descricao": "Kindle 11ª Geração",
+                        "areaGrid": "segundo"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_8.jpg"],
+                        "descricao": "Kindle Oasis",
+                        "areaGrid": "terceiro"
+                    },
+                    {
+                        "img": ["imagens/Pictures/image_9.jpg"],
+                        "descricao": "Acessórios",
+                        "areaGrid": "quarto"
+                    }
+                ]
+            },
+            {
+                "tipo": "duaslinhas",
+                "title": "Acesse uma conta para ter a melhor experiência",
+                "button": true,
+                "link": "confira todos os Dispositivos Amazon",
+                "produto": [
+                    {
+                        "img": ["imagens/Pictures/image_66.jpg"],
+                        "descricao": "",
+                        "areaGrid": "primeiro"
+                        
+                    }
+                ]
+            }
+        ],
+    
+ 
+        "conteudoMenor": [
+
+            {
+                "nomeSection": "categorias",
+                "title": "Navegue por categoria",
+                "link": "Veja todas as ofertas",
+                "images": [
+                    " imagens/categorias/image_10.jpg ",
+                    " imagens/categorias/image_11.jpg ",
+                    " imagens/categorias/image_12.jpg ",
+                    " imagens/categorias/image_13.jpg ",
+                    " imagens/categorias/image_14.jpg ",
+                    " imagens/categorias/image_16.jpg ",
+                    " imagens/categorias/image_18.jpg ",
+                    " imagens/categorias/image_19.jpg ",
+                    " imagens/categorias/image_20.jpg ",
+                    " imagens/categorias/image_21.jpg ",
+                    " imagens/categorias/image_22.jpg ",
+                    " imagens/categorias/image_23.jpg ",
+                    " imagens/categorias/image_24.jpg ",
+                    " imagens/categorias/image_25.jpg ",
+                    " imagens/categorias/image_26.jpg ",
+                    " imagens/categorias/image_27.jpg ",
+                    " imagens/categorias/image_28.jpg ",
+                    " imagens/categorias/image_29.jpg ",
+                    " imagens/categorias/image_30.jpg ",
+                    " imagens/categorias/image_31.jpg ",
+                    " imagens/categorias/image_32.jpg ",
+                    " imagens/categorias/image_33.jpg ",
+                    " imagens/categorias/image_34.jpg ",
+                    " imagens/categorias/image_37.jpg ",
+                    " imagens/categorias/image_38.jpg ",
+                    " imagens/categorias/image_39.jpg ",
+                    " imagens/categorias/image_40.jpg ",
+                    " imagens/categorias/image_41.jpg ",
+                    " imagens/categorias/image_42.jpg ",
+                    " imagens/categorias/image_43.jpg ",
+                    " imagens/categorias/image_44.jpg ",
+                    " imagens/categorias/image_45.jpg ",
+                    " imagens/categorias/image_49.jpg ",
+                    " imagens/categorias/image_50.jpg ",
+                    " imagens/categorias/image_51.jpg "
+                ]
+            },
+            {
+                "nomeSection": "filmes",
+                "title": "Navegue por categoria",
+                "link": "Veja todas as ofertas",
+                "images": [
+                    " imagens/filmes/image_81.jpg ",
+                    " imagens/filmes/image_82.jpg ",
+                    " imagens/filmes/image_83.jpg ",
+                    " imagens/filmes/image_84.jpg ",
+                    " imagens/filmes/image_85.jpg ",
+                    " imagens/filmes/image_86.jpg ",
+                    " imagens/filmes/image_87.jpg ",
+                    " imagens/filmes/image_88.jpg ",
+                    " imagens/filmes/image_89.jpg ",
+                    " imagens/filmes/image_90.jpg ",
+                    " imagens/filmes/image_91.jpg ",
+                    " imagens/filmes/image_92.jpg ",
+                    " imagens/filmes/image_93.jpg ",
+                    " imagens/filmes/image_94.jpg ",
+                    " imagens/filmes/image_95.jpg ",
+                    " imagens/filmes/image_96.jpg ",
+                    " imagens/filmes/image_97.jpg ",
+                    " imagens/filmes/image_98.jpg ",
+                    " imagens/filmes/image_99.jpg ",
+                    " imagens/filmes/image_100.jpg ",
+                    " imagens/filmes/image_101.jpg ",
+                    " imagens/filmes/image_102.jpg ",
+                    " imagens/filmes/image_103.jpg ",
+                    " imagens/filmes/image_104.jpg ",
+                    " imagens/filmes/image_105.jpg ",
+                    " imagens/filmes/image_107.jpg ",
+                    " imagens/filmes/image_108.jpg ",
+                    " imagens/filmes/image_109.jpg ",
+                    " imagens/filmes/image_110.jpg "
+                ]
+            },
+            {
+                "nomeSection": "maisVendidos",
+                "title": "Navegue por categoria",
+                "link": "Veja todas as ofertas",
+                "images": [
+                    " imagens/maisVendidos/image_115.jpg ",
+                    " imagens/maisVendidos/image_116.jpg ",
+                    " imagens/maisVendidos/image_117.jpg ",
+                    " imagens/maisVendidos/image_118.jpg ",
+                    " imagens/maisVendidos/image_119.jpg ",
+                    " imagens/maisVendidos/image_120.jpg ",
+                    " imagens/maisVendidos/image_121.jpg ",
+                    " imagens/maisVendidos/image_122.jpg ",
+                    " imagens/maisVendidos/image_123.jpg ",
+                    " imagens/maisVendidos/image_124.jpg ",
+                    " imagens/maisVendidos/image_125.jpg ",
+                    " imagens/maisVendidos/image_126.jpg ",
+                    " imagens/maisVendidos/image_127.jpg ",
+                    " imagens/maisVendidos/image_128.jpg ",
+                    " imagens/maisVendidos/image_129.jpg ",
+                    " imagens/maisVendidos/image_130.jpg ",
+                    " imagens/maisVendidos/image_131.jpg ",
+                    " imagens/maisVendidos/image_132.jpg ",
+                    " imagens/maisVendidos/image_133.jpg ",
+                    " imagens/maisVendidos/image_135.jpg ",
+                    " imagens/maisVendidos/image_136.jpg ",
+                    " imagens/maisVendidos/image_137.jpg ",
+                    " imagens/maisVendidos/image_138.jpg ",
+                    " imagens/maisVendidos/image_139.jpg ",
+                    " imagens/maisVendidos/image_140.jpg ",
+                    " imagens/maisVendidos/image_141.jpg ",
+                    " imagens/maisVendidos/image_142.jpg ",
+                    " imagens/maisVendidos/image_143.jpg ",
+                    " imagens/maisVendidos/image_144.jpg "
+                ]
+            
+            }
+        ]    
+    
+}
